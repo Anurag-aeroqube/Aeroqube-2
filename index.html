@@ -28,8 +28,8 @@
   </header>
 
 
-  <section class="relative ">
-    <img src="./architect.jpg" alt="Hero" class="w-full px-2 h-full object-cover" />
+  <section class="relative h-screen">
+    <img src="./architect.jpg" alt="Hero" class="w-full px-2  object-cover" />
     <!-- <div class="absolute w-full px-5 inset-0 bg-black/30"></div> -->
     <div class="absolute inset-0 flex items-center justify-center">
       <h1 class="text-3xl md:text-4xl border border-black px-4 py-3 bg-gray-800 font-bold text-white text-center  tracking-widest">BR </h1>
@@ -38,13 +38,14 @@
   </section>
 
  
-<section id="projects" class="py-10">
-    <div class=" mx-auto px-1 sm:px-1 py-10 lg:px-5">
+<section id="projects" class="py-10 mt-10">
+    <div class=" mx-auto px-1 sm:px-1 py-1 lg:px-5">
       <h2 class="text-3xl   text-gray-900 mb-8">Projects</h2>
-      <div class="w-full h-px bg-gray-300 mx-auto mb-8"></div> <!-- Thin Line Below Heading -->
+      <hr class="mb-6">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        
 
+        <!--Row 1-->
+        
         <div class="relative group overflow-hidden">
             <img src="./house4.jpg" alt="Summer House" class="w-full h-64 object-cover  transition-transform duration-300 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -66,26 +67,27 @@
           <div class="absolute top-0 left-0 bg-black/80 text-white px-4 py-2 rounded">Barn House</div>
         </div>
     
+        <!--Row 2-->
 
         <div class="relative group overflow-hidden">
           <img src="./Project1.jpg" alt="Modern Villa" class="w-full h-64 object-cover  transition-transform duration-300 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute top-4 left-4 bg-black/80 text-white px-4 py-2 rounded">Modern Villa</div>
+          <div class="absolute top-0 left-0 bg-black/80 text-white px-4 py-2 rounded">Modern Villa</div>
         </div>
         <div class="relative group overflow-hidden">
           <img src="./house4.jpg" alt="Urban Loft" class="w-full h-64 object-cover  transition-transform duration-300 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute top-4 left-4 bg-black/80 text-white px-4 py-2 rounded">Urban Loft</div>
+          <div class="absolute top-0 left-0 bg-black/80 text-white px-4 py-2 rounded">Urban Loft</div>
         </div>
         <div class="relative group overflow-hidden">
           <img src="./house3.jpg" alt="Glass House" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute top-4 left-4 bg-black/80 text-white px-4 py-2 rounded">Glass House</div>
+          <div class="absolute top-0 left-0 bg-black/80 text-white px-4 py-2 rounded">Glass House</div>
         </div>
         <div class="relative group overflow-hidden">
           <img src="./house2.jpg" alt="Eco Home" class="w-full h-64 object-cover  transition-transform duration-300 group-hover:scale-110" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute top-4 left-4 bg-black/80 text-white px-4 py-2 rounded">Eco Home</div>
+          <div class="absolute top-0 left-0 bg-black/80 text-white px-4 py-2 rounded">Eco Home</div>
         </div>
       </div>
     </div>
@@ -97,7 +99,8 @@
   <section id="about" class="py-10 ">
     <div class=" mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl  text-gray-900 mb-8">About</h2>
-      <div class="w-full h-px bg-gray-300 mx-auto mb-6"></div> <!-- Thin Line Below Heading -->
+      <hr class="mb-6">
+      <!-- <div class="w-full h-px bg-gray-300 mx-auto mb-6"></div> -->
 
       <p class="text-lg text-gray-600 mb-8 ">
         We are a team of passionate architects dedicated to creating sustainable and innovative spaces. Our approach combines modern aesthetics with functional design, ensuring each project tells its unique story 
@@ -137,7 +140,7 @@
   <section id="contact" class="py-10">
     <div class=" mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl  text-gray-900 mb-8">Contact</h2>
-      <div class="w-full h-px bg-gray-300 mx-auto mb-2"></div> <!-- Thin Line Below Heading -->
+      <hr class="mb-6">
       <p class="text-lg py-5">Lets get in touch and talk about your next project.</p>
       <form class="max-w-1xl mx-auto space-y-6">
         <div>
@@ -161,7 +164,9 @@
   <section class=" relative  mt-5">
     <img src="./map.jpg" alt="Footer" class="w-full h-full px-5 py-2 object-cover" />
    
-        <div class="w-full h-16 bg-black  px-8 py-1"></div>
+        <div class=" w-full h-16 bg-black  px-8 py-3">
+          <p class=" text-lg text-white text-center">By - Anurag Mishra</p>
+        </div>
 
   </section>
 </body>
